@@ -1,0 +1,5 @@
+if(!archivito.exists(){
+    archivito.mkdir(); //Devuelve true si se ha podido crear
+}
+
+archivito.list(); // Devuelve un array de cadenas String lista[] 

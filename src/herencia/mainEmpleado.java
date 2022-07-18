@@ -1,0 +1,17 @@
+package herencia;
+
+public class mainEmpleado {
+    public static void main(String[] args) {
+
+        Empleado E1 = new Empleado("Jaime");
+        Directivo D1 = new Directivo("Marcelo");
+        Operario OP1 = new Operario("Jose",34);
+        Oficial OF1 = new Oficial("Dani",56);
+        Tecnico T1 = new Tecnico("Carlos",23);                   
+        System.out.println(E1);
+        System.out.println(D1);
+        System.out.println(OP1);
+        System.out.println(OF1);
+        System.out.println(T1);
+    }
+}
